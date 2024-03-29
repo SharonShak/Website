@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+#Container{
+    margin-top: 150px;
+}
+@keyframes BG{
+    from {background-color: rgb(255, 255, 255);}
+    to {background-color: rgb(251, 185, 241);}
+}
+
+body{
+    animation-name: BG;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+.Product{
+    background-color:hsl(30, 38%, 92%);
+    height: 500px;
+    border-radius: 0px 15px 15px 0px;
+}
+.ProductImg{
+    background-color:hsl(14.33, 100%, 80.86%);
+    height: 500px;
+    border-radius: 15px 0px 0px 15px;
+}
+.Shadow{
+    box-shadow: 10px 10px 5px lightgray;
+}
+.Category{
+    padding-top: 25px;
+    padding-left: 10px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: gray;
+}
+.Title{
+    padding-top: 30px;
+    padding-left: 15px;
+    font-size: 40px;
+    font-family: "Fraunces";
+    font-weight: 400;
+}
+.P{
+    padding-top: 30px;
+    padding-left: 15px;
+    font-family: "Fraunces";
+    font-size: 20px;
+}
+#Button1{
+    cursor: pointer;
+    height: 25px; 
+    width: 50px;
+    background-color: gold;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+#Button2{
+    cursor: pointer;
+    height: 25px; 
+    width: 50px;
+    background-color: silver;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+#PStock{
+    font-family: "Montserrat";
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+#ButtonBuy{
+    display: block;
+    margin-top: 70px;
+    margin-left: 170px;
+    border: none;
+    background-color: hsl(14.33, 100%, 80.86%);
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-family: "Fraunces";
+}
+#ButtonBuy:hover{
+    background-color:hsl(14.33, 100%, 76.86%) ;
+    transform: scale(1.2);
+}
+.Filler{
+    height: 500px;
+}
+#Fix{
+    padding-bottom: 18.4px;
+}
+@media screen and (max-width: 428px){
+    #Container {
+      display: block;
+      width: 100%;
+      margin: 0;
+    }
+    #WGBracelet{
+      width: 100%;
+    }
+    #Content {
+      width: 100%;
+    }
+    #F1{
+      width: 0%
+    }
+    #ButtonBuy{
+        margin-top: 50px;
+    }
+  }

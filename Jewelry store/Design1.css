@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@keyframes scale-up-center {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+@keyframes scale-up-top {
+    0% {
+      transform: scale(0.5);
+      transform-origin: 0% 0%;
+    }
+    100% {
+      transform: scale(1);
+      transform-origin: 50% 0%;
+    }
+  }
+  
+
+video{
+    width: 100%;
+ }
+ #OverVideo{
+     background-color: hsl(0, 0%, 100%,0.8);
+     position: absolute; 
+     font-family: "Montserrat";
+     font-weight: 600;
+     font-size: 50px;
+     color:black;
+     top: 100px;
+     left: 40%;
+ }
+ #ButtonProduct{
+    background-color: white;
+}
+ #ButtonProduct:hover{
+     border: black;
+     border-style: double;
+     cursor: pointer;
+ }
+.Product{
+    border: none;
+}
+ #Footer1{
+    background-color: lightgray;
+    font-size: 30px;
+    font-family: "Montserrat";
+    animation-name: scale-up-center;
+    animation-duration: 4s;
+ }
+ #Footer2{
+    background-color: lightgray;
+    font-family: "Fraunces";
+    padding-top: 30px;
+    width: 100%;
+    animation-name: scale-up-top;
+    animation-duration: 4s;
+ }
+.Button1{
+    border: none;
+    background-color: hsl(14.33, 100%, 80.86%);
+    color: black;
+    width: 150px;
+    height: 40px;
+    font-family: "Fraunces";
+    
+}
+.Button1:hover{
+    background-color: hsl(14.33, 100%, 75.86%);
+}
+
+@media screen and (max-width: 428px){
+    .Button1 {
+      float: none;
+    }
+    #OverVideo{
+        left:20px;
+    }
+  }

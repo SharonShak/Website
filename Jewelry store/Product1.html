@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product1</title>
+    <link rel="stylesheet" href="Design.css">
+    <link rel="stylesheet" href="Design2.css">
+    <script src="Product.js"></script>
+</head>
+<body>
+  <nav class="NavBar col-12 row">
+    <img  id="Img1" class="col-1" src="Images/Logo.png">
+    <button class="Button col-3" onclick="window.location.href = 'Homepage.html'">Homepage</button>
+    <button class="Button col-3">Login</button>
+    <div class="col6"></div>
+    <button id="Cart" class="Button col-3"><img src="Images/icon-cart.svg"></button>
+  </nav>
+  <div id="Container" class="row col-12">
+    <div id="F1" class="col-2 Filler"></div>
+      <img id="WGBracelet" class="ProductImg col-4" src="Images/winston gates harry winston bracelet diamond yellow gold.webp">
+    <div id="Content" class="Product col-4 Shadow row">
+      <h2 class="Category">BRACELET</h2>
+      <h3 class="Title">Winston Gates Platinum Diamond Bracelet</h3>
+        <div id="Fix" class="row">
+          <p class="P">29 round brilliant diamonds weighing a total of approximately 0.29 carats, set in platinum.</p>
+          <button id="Button1" onclick="document.getElementById('WGBracelet').src='Images/winston gates harry winston bracelet diamond yellow gold.webp';document.getElementById('PStock').style.display='block';document.getElementById('Fix').style.paddingBottom='0px';"></button>
+          <button id="Button2" onclick="document.getElementById('WGBracelet').src='Images/winston gates harry winston bracelet diamond platinum.webp';document.getElementById('PStock').style.display='None';document.getElementById('Fix').style.paddingBottom='18.4px';"></button>
+          <p id="PStock">*Not in stock</p>
+        </div>
+      <button id="ButtonBuy">Purchase</button>
+    </div>
+    <div class="col-2 Filler"></div>
+  </div>
+</body>
+</html>

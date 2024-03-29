@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.NavBar{
+    background-color: hsl(14.33, 100%, 86.86%,0.5);
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+#Img1{
+    height: 40px;
+}
+.Button{
+    border: none;
+    background-color: hsl(14.33, 100%, 86.86%);
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-family: "Fraunces";
+}
+.Button:hover{
+    background-color: hsl(14.33, 100%, 80.86%); 
+    cursor: pointer;
+}
+#Cart{
+    float: right;
+}
+.Relative{
+    position: relative;
+}
+.Center{
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
